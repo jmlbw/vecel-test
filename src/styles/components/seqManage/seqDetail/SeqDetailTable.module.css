@@ -1,0 +1,10 @@
+.popupBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
+
+.contentContainer {
+  height: 100%;
+}

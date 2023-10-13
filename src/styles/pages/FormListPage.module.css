@@ -1,0 +1,10 @@
+.align {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+}
+
+.left_box {
+  margin-bottom: 45px;
+}

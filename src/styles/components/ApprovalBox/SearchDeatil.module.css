@@ -1,0 +1,16 @@
+.SearchDetailBox {
+  max-width: 100%;
+  width: 100%;
+}
+.searchItems {
+  column-gap: 100px; /* 자식 요소들 사이에 10px 간격 */
+  display: flex;
+  width: fit-content;
+  flex-wrap: wrap; /* 줄 바꿈 설정 */
+  justify-content: flex-start;
+}
+.btnArea {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}

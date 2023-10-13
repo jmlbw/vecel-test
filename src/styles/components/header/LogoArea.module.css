@@ -1,0 +1,26 @@
+.logo_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: #3bafda;
+  width: 240px;
+  position: fixed;
+  transition: all 0.1s ease-out;
+  top: 0;
+  z-index: 1;
+
+  cursor: pointer;
+}
+
+.logo_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+
+.logo_icon img {
+  max-height: 100%; /* 이미지를 부모 요소에 맞게 조절 */
+  max-width: 100%; /* 이미지를 부모 요소에 맞게 조절 */
+}

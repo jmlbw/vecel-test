@@ -1,0 +1,48 @@
+.profile {
+  padding: 0px 10px 0px 10px;
+}
+
+.profile .rounded_circle {
+  height: 29px;
+  width: 29px;
+}
+
+.list_user {
+  display: flex;
+}
+
+.profile_userbox {
+  flex-direction: column;
+  display: flex;
+  min-width: 0;
+}
+
+.userbox_username {
+  position: relative;
+  display: inline-block;
+  margin: 1px 42px 1px 0;
+  line-height: 14px;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  min-width: 52px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.userbox_userdepart {
+  position: relative;
+  display: inline-block;
+  padding-right: 18px;
+  margin: 0 0 0 10px;
+  line-height: 14px;
+  font-size: 10px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  min-width: 52px;
+  box-sizing: border-box;
+}
+
+.rounded_circle {
+  border-radius: 50% !important;
+}

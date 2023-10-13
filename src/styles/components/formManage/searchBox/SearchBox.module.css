@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  font-size: 12px;
+}
+
+.iconArea {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: right;
+  padding-right: 5px;
+}
+
+.iconArea > svg {
+  width: 15px;
+  height: 15px;
+}
+
+.iconArea > svg:hover {
+  transform: scale(1.1);
+}
+
+.optionsArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

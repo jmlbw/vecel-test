@@ -1,0 +1,58 @@
+.itemBox {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title {
+  text-align: end;
+  /* font-size: 12px; */
+  font-weight: 700;
+  padding-right: 5px;
+  min-width: 42px;
+  padding-left: 10px;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #e6e6e6;
+  width: 180px;
+  height: 27px;
+  margin-left: 10px;
+}
+
+.input {
+  border: 0px;
+  width: 170px;
+  height: 18px;
+}
+
+.select {
+  width: 170px;
+  height: 27px;
+  margin-left: 10px;
+  border: 1px solid #e6e6e6;
+}
+
+.selectItem select {
+  text-align: end;
+  /* font-size: 12px; */
+  font-weight: 700;
+  padding-right: 5px;
+  min-width: 42px;
+  width: 80px !important;
+}
+.searchdateBox {
+  width: 80px !important;
+}
+.searchdate {
+  padding-right: 50px;
+}

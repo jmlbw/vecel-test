@@ -1,0 +1,32 @@
+.itemBox {
+  position: relative;
+  display: flex;
+  width: fit-content;
+}
+.itemBox:hover {
+  color: #3bafda;
+  cursor: pointer;
+}
+.deleteButton {
+  font-size: 11px;
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transform: translateY(-55%);
+  color: #a8a7a7;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.itemBox:hover .deleteButton {
+  opacity: 1;
+}
+.boxName {
+  font-size: 12px;
+  margin: 3px 3px 0px 0px;
+}
+.iconimg {
+  color: #3bafda;
+  margin: 3px 5px 0px 3px;
+}

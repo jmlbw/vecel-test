@@ -1,0 +1,72 @@
+.detailBox {
+  display: flex;
+  flex-direction: row;
+  min-height: 50px;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 2;
+  font-size: 12px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 7;
+}
+
+.contentBox > input {
+  border: 1px solid #cccccc;
+}
+
+.areaContent {
+  height: 100px;
+}
+
+.areaContentBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: scroll;
+  width: 90%;
+  height: 100%;
+  border: 1px solid #cccccc;
+}
+
+.radioBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 90%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.radioBox > div {
+  text-align: center;
+}
+
+.fileContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+  margin: 5px 0px;
+  gap: 5px;
+}
+
+.subBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

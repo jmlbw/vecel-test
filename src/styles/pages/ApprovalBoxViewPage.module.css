@@ -1,0 +1,70 @@
+/* ////////////////////////////////////////////////////////////////// */
+.approvalBoxContainer {
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+}
+
+.subbox {
+  flex: 1; /* flex-grow 속성을 사용하여 subbox가 가득 채우도록 함 */
+  padding: 10px;
+  box-sizing: border-box; /* padding이 요소 크기에 포함되도록 설정 */
+  background-color: #ffffff;
+}
+.listHeaderBox {
+  margin: 0 !important;
+  padding: 13px 20px 12px;
+  border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+
+.sortListBox {
+  height: 27px;
+  justify-content: flex-end;
+}
+
+.searchDetailbox {
+  max-width: 100%;
+  height: auto;
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center;
+  border: 1px solid #ced4da;
+  margin-top: 10px;
+}
+.radiobuttonsBox {
+  margin: 0 !important;
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+  flex: 1;
+  height: 50px;
+}
+.radiogroup {
+  height: 27px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.inInnerbox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.outInnerbox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.searchDetail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; /* 줄 바꿈 설정 */
+  justify-content: flex-start; /* 시작 부분에서 정렬 */
+  align-items: center;
+  max-width: 100%;
+  font-size: 12px;
+}

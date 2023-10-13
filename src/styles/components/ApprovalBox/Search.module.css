@@ -1,0 +1,16 @@
+.searchbox {
+  border: 1px solid #cfcdcd;
+  height: 27px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.searchbox input {
+  border-style: none;
+  height: 25px;
+}
+.searchbox button {
+  /* border-style: none; */
+  /* background-color: white; */
+  height: 25px;
+}

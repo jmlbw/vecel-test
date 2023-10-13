@@ -1,0 +1,31 @@
+.list {
+  margin-left: 20px !important;
+}
+
+.menutext span {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.mainmenu:hover {
+  color: #3bafda;
+  background-color: transparent !important;
+}
+
+.submenu {
+  padding-left: 40px;
+}
+
+.subitem:hover {
+  color: #3bafda;
+  background-color: white !important;
+}
+
+.sub_menutext span {
+  font-size: 15px !important;
+}
+
+.color {
+  color: #3bafda !important;
+  background-color: white !important;
+}

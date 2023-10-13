@@ -1,0 +1,33 @@
+/* Selected.module.css */
+
+.whole {
+  display: inline-block; /* inline-block으로 설정하여 요소들을 인라인 레벨로 나열합니다. */
+  border-radius: 2px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.18);
+  border: 2px solid rgba(59, 175, 218, 0.2);
+  padding: 0 1px; /* 좌우 여백을 추가합니다. */
+  height: 28.6px;
+}
+
+.element {
+  display: flex; /* inline-block으로 설정하여 요소들을 인라인 레벨로 나열합니다. */
+  align-items: center;
+  padding: 0 7px; /* 좌우 여백을 추가합니다. */
+  padding-top: 2px;
+}
+
+.text {
+  margin: 0 14px 0 7px; /* 상단과 하단 여백을 조절합니다. */
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.iconimg {
+  color: #3bafda;
+  padding-top: 2px;
+}
+.iconX {
+  color: grey;
+  padding-top: 2px;
+  cursor: pointer;
+}

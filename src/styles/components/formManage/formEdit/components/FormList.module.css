@@ -1,0 +1,29 @@
+.formListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.searchArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+
+  border: 1px solid #000;
+}
+
+.formListArea {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  border: 1px solid #000;
+  overflow-x: scroll;
+}
+
+.formListItem {
+  border: 1px solid #000;
+}

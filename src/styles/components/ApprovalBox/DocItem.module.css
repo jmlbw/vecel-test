@@ -1,0 +1,163 @@
+.itembox:hover {
+  border: 1px solid rgb(59, 175, 218);
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.itembox {
+  height: 56.4px;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+}
+.checkboxArea {
+  width: 17px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 20px;
+  box-sizing: border-box;
+  padding-right: 40px; /*수정가능*/
+}
+.dateText {
+  display: block;
+  font-size: 12px;
+  line-height: 52px;
+  letter-spacing: -0.33px;
+  color: #6c757d;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding-right: 30px;
+  min-width: 250px;
+}
+.element {
+  margin: 7px 0 0;
+  max-width: 100%;
+  margin: 0 0 0 20px;
+  box-sizing: border-box;
+  padding-right: 10px;
+  min-width: 415px;
+  padding-left: 40px;
+}
+
+.elementText {
+  font-size: 12.6px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: -0.33px;
+  color: #3c4045;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 330px;
+  max-width: 330px;
+  display: flex;
+  margin: 2px 0 0;
+  height: 18px;
+  min-width: 0;
+}
+.info {
+  display: flex;
+  margin: 2px 0 0;
+  height: 18px;
+  min-width: 0;
+}
+.txtinfo {
+  font-size: 10px;
+  line-height: 18px;
+  color: #98a6ad;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.docUser {
+  margin: 0 0 0 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+.imginfo {
+  margin: 14px 6px 14px 0;
+  border-radius: 24px;
+  /* overflow: hidden; */
+}
+.docUser img {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  overflow: clip;
+  border-radius: 50%;
+}
+.userinfo {
+  width: inherit;
+  display: inline-block;
+  line-height: 0;
+  min-width: 150px;
+  max-width: 200px;
+}
+.name {
+  margin: 7px 0 0;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.33px;
+  color: #6c757d;
+  max-width: 200px;
+}
+.departementInfo {
+  display: inline-block;
+  line-height: 0;
+  min-width: 100px;
+  max-width: 200px;
+}
+.departementList {
+  height: 18px;
+  display: flex;
+}
+.txtdep {
+  font-size: 10px;
+  line-height: 18px;
+  color: #98a6ad;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.docStatus {
+  display: flex;
+  min-width: 120px;
+  max-width: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.process {
+  /* color: #f0c325; 상태마다 달라야 함 */
+  min-height: 18px;
+  align-items: center;
+  display: flex;
+  border-radius: 0.25rem;
+}
+.txtline {
+  color: rgb(32, 201, 151);
+  max-width: 125px;
+  max-height: 36px;
+  line-height: 18px;
+  white-space: normal;
+  font-size: 11px;
+  padding: 3px 4px 3px 4px;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+.bar {
+  color: #e8e5e5;
+  font-size: 11px;
+  padding-left: 2px;
+  padding-right: 2px;
+}

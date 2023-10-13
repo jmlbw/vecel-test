@@ -1,0 +1,7 @@
+.custom-box td {
+  width: 200px;
+}
+
+.custom-box td:first-child {
+  width: 50px;
+}

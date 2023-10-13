@@ -1,0 +1,5 @@
+.inputbox input {
+  box-sizing: none;
+  width: 100px;
+  height: 10px;
+}

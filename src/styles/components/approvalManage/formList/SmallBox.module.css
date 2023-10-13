@@ -1,0 +1,30 @@
+.box {
+  background-color: #dfeff8;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  border: 0.5px solid #3bafda;
+}
+
+.box:hover {
+  border: 2px solid #236a84;
+}
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.content {
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}

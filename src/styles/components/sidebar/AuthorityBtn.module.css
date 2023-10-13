@@ -1,0 +1,10 @@
+.toggleGroup {
+  width: 140px;
+  margin-left: 40px;
+  position: fixed;
+  bottom: 10px;
+}
+
+.toggle {
+  width: 70px;
+}

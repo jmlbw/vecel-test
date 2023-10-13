@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.shortCutBtn {
+  width: 20%;
+  /* color: transparent; */
+  background-color: transparent;
+  border: 1px solid #000;
+  display: flex;
+}
+
+.division {
+  width: 1px;
+  border: 1px solid #000;
+}

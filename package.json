@@ -1,0 +1,65 @@
+{
+  "name": "simple-sign-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/material": "^5.14.10",
+    "@mui/styled-engine-sc": "^5.14.10",
+    "@mui/x-data-grid": "^6.14.0",
+    "@mui/x-date-pickers": "^6.14.0",
+    "@mui/x-tree-view": "^6.0.0-beta.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "axios": "^1.5.0",
+    "circular-json": "^0.5.9",
+    "dayjs": "^1.11.10",
+    "html-react-parser": "^4.2.2",
+    "material-ui-popup-state": "^5.0.9",
+    "moment": "^2.29.4",
+    "nice-try": "^3.0.1",
+    "quill-better-table": "^1.2.10",
+    "react": "^18.2.0",
+    "react-datepicker": "^4.18.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-paginate": "^8.2.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.5",
+    "realgrid": "^2.7.0",
+    "styled-components": "^5.3.11",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

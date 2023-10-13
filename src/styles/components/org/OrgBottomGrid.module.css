@@ -1,0 +1,4 @@
+.bottom_datalist {
+  max-height: 200px;
+  overflow-y: auto;
+}
