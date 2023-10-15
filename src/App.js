@@ -24,7 +24,7 @@ import Loading from './components/common/Loading';
 function AppContent() {
   const { state } = useContext(AppContext);
   const navigate = useNavigate();
-
+  console.log('환경:', process.env.API_BASE_URL);
   //로그인이 되지 않으면 로그인 페이지로
   useEffect(() => {
     if (!state.isLoggedIn) {
